@@ -6,8 +6,8 @@ Deno.test({
   name: "returns void if commpanies are sorted",
   fn: () => {
     const companies = [
-      createCompany({ company: "A Company" }),
-      createCompany({ company: "B Company" }),
+      createCompany({ name: "A Company" }),
+      createCompany({ name: "B Company" }),
     ];
 
     const result = companiesAreSortedAlphabetically(companies);
@@ -20,8 +20,8 @@ Deno.test({
   name: "returns an error if companies are not sorted",
   fn: () => {
     const companies = [
-      createCompany({ company: "B Company" }),
-      createCompany({ company: "A Company" }),
+      createCompany({ name: "B Company" }),
+      createCompany({ name: "A Company" }),
     ];
 
     const result = companiesAreSortedAlphabetically(companies) as Error;
@@ -37,8 +37,8 @@ Deno.test({
   name: "returns an error if companies are not sorted ignoring the case",
   fn: () => {
     const companies = [
-      createCompany({ company: "a Company" }),
-      createCompany({ company: "B Company" }),
+      createCompany({ name: "a Company" }),
+      createCompany({ name: "B Company" }),
     ];
 
     const result = companiesAreSortedAlphabetically(companies) as Error;

@@ -33,7 +33,7 @@ Deno.test({
     let companyName = "My Company";
     const companies = [
       createCompany({
-        company: companyName,
+        name: companyName,
         socialNetworks: [
           {
             type: SocialNetworkType.LINKEDIN,

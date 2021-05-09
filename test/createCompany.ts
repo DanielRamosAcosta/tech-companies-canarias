@@ -6,7 +6,7 @@ import {
 } from "../src/models.ts";
 
 export const createCompany = ({
-  company = "Example Company",
+  name = "Example Company",
   type = CompanyType.SOFTWARE_DEVELOPMENT,
   website = "https://example.org/",
   hiringFrom = [Island.TENERIFE],
@@ -16,7 +16,7 @@ export const createCompany = ({
   }],
   jobPage = "https://example.org/jobs",
 } = {}): Company => ({
-  name: company,
+  name,
   type,
   website,
   hiringFrom,

@@ -68,7 +68,7 @@ export const companies: Companies = [
         link: "https://twitter.com/devCometa",
       },
     ],
-    jobPage: "https://www.desarrollocometa.com", // Not sure about this
+    jobPage: "https://www.desarrollocometa.com",
   },
   {
     name: "Ecommium",
@@ -279,7 +279,7 @@ export const companies: Companies = [
     name: "Omnia Infosys",
     type: CompanyType.SOFTWARE_DEVELOPMENT,
     website: "https://omniainfosys.com",
-    hiringFrom: [Island.TENERIFE], // Not sure about this
+    hiringFrom: [Island.TENERIFE],
     socialNetworks: [
       {
         type: SocialNetworkType.FACEBOOK,
@@ -412,7 +412,7 @@ export const companies: Companies = [
     name: "Squaads",
     type: CompanyType.SOFTWARE_DEVELOPMENT,
     website: "https://squaads.com",
-    hiringFrom: [Island.GRAN_CANARIA], // Not sure about this
+    hiringFrom: [Island.GRAN_CANARIA],
     socialNetworks: [
       {
         type: SocialNetworkType.LINKEDIN,
@@ -454,7 +454,7 @@ export const companies: Companies = [
     name: "The Agile Monkeys",
     type: CompanyType.SOFTWARE_DEVELOPMENT,
     website: "https://www.theagilemonkeys.com",
-    hiringFrom: [Island.GRAN_CANARIA], // Not sure about this
+    hiringFrom: [Island.GRAN_CANARIA],
     socialNetworks: [
       {
         type: SocialNetworkType.FACEBOOK,

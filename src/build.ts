@@ -33,7 +33,7 @@ const createSocialNetworkEnabledIcon = ({
   createLink(createImage(type, createSocialNetworkImageLink(type)), link);
 
 const createSocialNetworkDisabledIcon = (type: SocialNetworkType) =>
-  createImage(type, `${iconsBaseUrl}/empty.png`);
+  createLink(createImage(type, `${iconsBaseUrl}/empty.png`), "#");
 
 const createSocialIcons = (socialNetworks: SocialNetworks) => {
   return Object.values(SocialNetworkType).map(

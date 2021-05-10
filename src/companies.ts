@@ -491,6 +491,31 @@ export const companies: Companies = [
     jobPage: "https://www.linkedin.com/company/squaads/jobs/",
   },
   {
+    name: "System73 Ltd.",
+    type: CompanyType.SOFTWARE_DEVELOPMENT,
+    website: "https://system73.com",
+    hiringFrom: [Island.TENERIFE],
+    socialNetworks: [
+      {
+        type: SocialNetworkType.FACEBOOK,
+        link: "https://www.facebook.com/system73limited",
+      },
+      {
+        type: SocialNetworkType.GITHUB,
+        link: "https://github.com/system73",
+      },
+      {
+        type: SocialNetworkType.LINKEDIN,
+        link: "https://www.linkedin.com/company/system-73",
+      },
+      {
+        type: SocialNetworkType.TWITTER,
+        link: "https://twitter.com/system73limited",
+      },
+    ],
+    jobPage: "https://system73.com/careers",
+  },
+  {
     name: "TecAlliance",
     type: CompanyType.SOFTWARE_DEVELOPMENT,
     website: "https://www.tecalliance.net",

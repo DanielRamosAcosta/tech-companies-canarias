@@ -33,7 +33,7 @@ export const companies: Companies = [
       },
     ],
     jobPage:
-      "https://www.linkedin.com/company/avantic-estudio-de-ingenieros/jobs",
+      "https://www.linkedin.com/company/acid-tango/jobs/",
   },
   {
     name: "Avantic",

@@ -512,18 +512,18 @@ export const companies: Companies = [
   {
     name: "XalDigital",
     type: CompanyType.SOFTWARE_DEVELOPMENT,
-    website: "https://www.xaldigital.com/#/",
+    website: "https://www.xaldigital.com",
     hiringFrom: [Island.TENERIFE],
     socialNetworks: [
       {
         type: SocialNetworkType.LINKEDIN,
-        link: "https://www.linkedin.com/company/xal-digital/",
+        link: "https://www.linkedin.com/company/xal-digital",
       },
       {
         type: SocialNetworkType.YOUTUBE,
         link: "https://www.youtube.com/channel/UCmC9ZbHwg_5Jff9QNRoRofw",
       },
     ],
-    jobPage: "https://www.linkedin.com/company/xal-digital/jobs/",
+    jobPage: "https://www.linkedin.com/company/xal-digital/jobs",
   },
 ];

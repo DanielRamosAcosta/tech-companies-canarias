@@ -276,6 +276,27 @@ export const companies: Companies = [
     jobPage: "https://leanmind.es/es/empleo",
   },
   {
+    name: "MHP Software",
+    type: CompanyType.SOFTWARE_DEVELOPMENT,
+    website: "http://mhp-solution-group.es/",
+    hiringFrom: [Island.TENERIFE],
+    socialNetworks: [
+      {
+        type: SocialNetworkType.GITHUB,
+        link: "https://github.com/mhpes",
+      },
+      {
+        type: SocialNetworkType.LINKEDIN,
+        link: "https://www.linkedin.com/company/mhp-software-s-l-/",
+      },
+      {
+        type: SocialNetworkType.TWITTER,
+        link: "https://twitter.com/mhpsoftware",
+      },
+    ],
+    jobPage: "https://www.infojobs.net/mhp-software-sl/em-i98555454495549777280322013095644317473/ofertas",
+  },
+  {
     name: "Omnia Infosys",
     type: CompanyType.SOFTWARE_DEVELOPMENT,
     website: "https://omniainfosys.com",

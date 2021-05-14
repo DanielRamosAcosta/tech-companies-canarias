@@ -9,6 +9,7 @@ Pull requests will be accepted based on the following:
 1. If you add the company in alphabetical order in the list
 1. If you submit the company with all their attributes (name, website, social networks...)
 1. If the company is not fully-remote. If it's full-remote, a great part of the team is in the Canary Islands.
+1. The README.md is generated. Update only the [companies.ts](https://github.com/DanielRamosAcosta/tech-companies-canarias/blob/main/src/companies.ts) file.
 
 Please adhere to the [Contributor Code of Conduct](/CODE_OF_CONDUCT.md).
 

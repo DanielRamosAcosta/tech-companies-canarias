@@ -6,7 +6,8 @@ import {
 } from "./models.ts";
 import { companies } from "./companies.ts";
 
-const markdownHeader = `# Tech Companies Canarias
+const markdownHeader = `<!-- THIS FILE IS GENERATED, DO NOT TOUCH -->
+# Tech Companies Canarias
 
 Tech Companies Canarias is a list of tech companies that are offer tech work from the Canary Islands 🇮🇨.
 

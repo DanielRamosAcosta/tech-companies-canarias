@@ -4,7 +4,7 @@ export const companies: Companies = [
   {
     name: "Acid Tango",
     type: CompanyType.SOFTWARE_DEVELOPMENT,
-    website: "https://acidtango.com",
+    website: "https://acidtango.com/?utm_source=github&utm_medium=readme-list&utm_campaign=github-tech-companies-canarias&utm_content=github-daniel-ramos-tech-companies-canarias",
     hiringFrom: [Island.TENERIFE],
     socialNetworks: [
       {

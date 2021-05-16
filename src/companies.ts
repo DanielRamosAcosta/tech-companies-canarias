@@ -36,6 +36,28 @@ export const companies: Companies = [
       "https://www.linkedin.com/company/acid-tango/jobs/",
   },
   {
+    name: "Arte Consultores",
+    type: CompanyType.SOFTWARE_DEVELOPMENT,
+    website: "https://arte.dev/index-es.html",
+    hiringFrom: [Island.TENERIFE],
+    socialNetworks: [
+      {
+        type: SocialNetworkType.LINKEDIN,
+        link: "https://www.linkedin.com/company/artedev",
+      },
+      {
+        type: SocialNetworkType.TWITTER,
+        link: "https://twitter.com/arte_dev",
+      },
+      {
+        type: SocialNetworkType.YOUTUBE,
+        link: "https://www.youtube.com/channel/UCAEdAn0If7IN_xVBgrZftaw",
+      },
+    ],
+    jobPage:
+      "https://arte.dev/trabajo.html",
+  },
+  {
     name: "Avantic",
     type: CompanyType.SOFTWARE_DEVELOPMENT,
     website: "http://www.avantic.net",

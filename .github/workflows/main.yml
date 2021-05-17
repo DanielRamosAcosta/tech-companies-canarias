@@ -1,10 +1,5 @@
 name: Deno
-
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+on: [push, pull_request]
 
 jobs:
   test:
@@ -22,3 +17,19 @@ jobs:
         run: deno test
       - name: Run Linter
         run: deno run src/linter/lint.ts
+  build:
+    runs-on: ubuntu-latest
+    if: ${{ github.ref == 'refs/heads/main' }}
+    steps:
+      - uses: actions/checkout@master
+      - name: Setup Deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.x
+      - name: Cache Dependencies
+        run: deno cache deps.ts
+      - name: Create local changes
+        run: deno run src/build.ts > README.md
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+

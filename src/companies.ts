@@ -76,6 +76,32 @@ export const companies: Companies = [
       "https://www.linkedin.com/company/avantic-estudio-de-ingenieros/jobs",
   },
   {
+    name: "Conectatec",
+    type: CompanyType.SOFTWARE_DEVELOPMENT,
+    website: "https://www.conectatec.com/?utm_source=github",
+    hiringFrom: [Island.TENERIFE],
+    socialNetworks: [
+      {
+        type: SocialNetworkType.FACEBOOK,
+        link: "https://www.facebook.com/conectatectf",
+      },
+      {
+        type: SocialNetworkType.INSTAGRAM,
+        link: "https://www.instagram.com/conectatec",
+      },
+      {
+        type: SocialNetworkType.LINKEDIN,
+        link: "https://www.linkedin.com/company/conectatec",
+      },
+      {
+        type: SocialNetworkType.YOUTUBE,
+        link: "https://www.youtube.com/user/seoconectatec",
+      },
+    ],
+    jobPage:
+      "https://www.linkedin.com/company/conectatec/jobs",
+  },
+  {
     name: "Desarrollo Cometa",
     type: CompanyType.SOFTWARE_DEVELOPMENT,
     website: "https://www.desarrollocometa.com",

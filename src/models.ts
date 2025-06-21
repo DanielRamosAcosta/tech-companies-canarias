@@ -7,6 +7,7 @@ export const enum Island {
   FUERTEVENTURA = "Fuerteventura",
   LANZAROTE = "Lanzarote",
   LA_GRACIOSA = "La Graciosa",
+  REMOTE = "Remote",
 }
 
 export enum SocialNetworkType {

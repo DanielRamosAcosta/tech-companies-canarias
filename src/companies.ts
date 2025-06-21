@@ -102,23 +102,6 @@ export const companies: Companies = [
       "https://www.linkedin.com/company/conectatec/jobs",
   },
   {
-    name: "Desarrollo Cometa",
-    type: CompanyType.SOFTWARE_DEVELOPMENT,
-    website: "https://www.desarrollocometa.com",
-    hiringFrom: [Island.TENERIFE],
-    socialNetworks: [
-      {
-        type: SocialNetworkType.FACEBOOK,
-        link: "https://www.facebook.com/desarrollocometa",
-      },
-      {
-        type: SocialNetworkType.TWITTER,
-        link: "https://twitter.com/devCometa",
-      },
-    ],
-    jobPage: "https://www.desarrollocometa.com",
-  },
-  {
     name: "Ecommium",
     type: CompanyType.SOFTWARE_DEVELOPMENT,
     website: "https://ecommium.com",
@@ -476,6 +459,39 @@ export const companies: Companies = [
     ],
     jobPage:
       "https://www.linkedin.com/company/sirokko-open-source-solutions-s-l-/jobs/",
+  },
+    {
+    name: "Sngular",
+    type: CompanyType.SOFTWARE_DEVELOPMENT,
+    website: "https://www.sngular.com/es/",
+    hiringFrom: [Island.REMOTE],
+    socialNetworks: [
+      {
+        type: SocialNetworkType.FACEBOOK,
+        link: "https://www.facebook.com/SngularPeople",
+      },
+      {
+        type: SocialNetworkType.GITHUB,
+        link: "https://github.com/sngular",
+      },
+      {
+        type: SocialNetworkType.INSTAGRAM,
+        link: "https://www.instagram.com/sngular_team/",
+      },
+      {
+        type: SocialNetworkType.LINKEDIN,
+        link: "https://www.linkedin.com/company/sngular/",
+      },
+      {
+        type: SocialNetworkType.TWITTER,
+        link: "https://x.com/sngular",
+      },
+      {
+        type: SocialNetworkType.YOUTUBE,
+        link: "https://www.youtube.com/channel/UCJDkEoAAZclorR4jEF9Kv3Q",
+      },
+    ],
+    jobPage: "https://www.sngular.com/es/talento",
   },
   {
     name: "Squaads",

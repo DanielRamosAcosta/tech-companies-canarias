@@ -636,4 +636,25 @@ export const companies: Companies = [
     ],
     jobPage: "https://www.linkedin.com/company/xal-digital/jobs",
   },
+    {
+    name: "2Coders",
+    type: CompanyType.SOFTWARE_DEVELOPMENT,
+    website: "https://2coders.com/",
+    hiringFrom: [Island.GRAN_CANARIA],
+    socialNetworks: [
+      {
+        type: SocialNetworkType.FACEBOOK,
+        link: "https://www.facebook.com/2Coders",
+      },
+      {
+        type: SocialNetworkType.INSTAGRAM,
+        link: "https://www.instagram.com/2coders/",
+      },
+      {
+        type: SocialNetworkType.LINKEDIN,
+        link: "https://es.linkedin.com/company/2coders",
+      }
+    ],
+    jobPage: "https://2coders.com/work-with-us/",
+  },
 ];
